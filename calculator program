@@ -1,0 +1,18 @@
+num1 = parseInt(prompt("Enter number :"))
+num2 = parseInt(prompt("Enter number :"))
+operator=prompt("choose operation add / sub / mul / div : ")
+if(operator == "add"){
+    console.log(num1 + num2)
+}
+else if(operator == "sub"){
+    console.log(num1 - num2)
+}
+else if(operator == "mul"){
+    console.log(num1*num2)
+}
+else if(operator == "div"){
+    console.log(num1/num2)
+} 
+else{
+    console.log("operation invalid")
+}
